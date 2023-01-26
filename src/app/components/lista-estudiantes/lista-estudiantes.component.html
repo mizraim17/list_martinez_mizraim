@@ -1,0 +1,17 @@
+<div class="row fondo-1">
+  <div *ngFor="let estudiante of ListarEstudiantes" class="col-4">
+
+    <div class="card" style="width: 18rem;">
+      <img src="{{estudiante.foto}}" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <h5 class="card-title">{{estudiante.nombre}}</h5>
+        <p class="card-text">
+          {{estudiante.curso }}
+        </p>
+        <a href="#" class="btn btn-primary">{{estudiante.aprobado?'reincribir':'recursar'}}</a>
+      </div>
+    </div>
+  </div>
+
+</div>
