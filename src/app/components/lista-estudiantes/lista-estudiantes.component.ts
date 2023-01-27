@@ -11,7 +11,7 @@ export class ListaEstudiantesComponent {
     {
       nombre: 'Baby Rick',
       grupo: 2,
-      curso: 'Angular',
+      curso: 'ANGULAR',
       calificacion: 4.6,
       aprobado: false,
       foto: 'https://rickandmortyapi.com/api/character/avatar/472.jpeg',
@@ -19,7 +19,7 @@ export class ListaEstudiantesComponent {
     {
       nombre: 'Mr. Poopybutthole',
       grupo: 2,
-      curso: 'React',
+      curso: 'REACT',
       calificacion: 8.6,
       aprobado: true,
       foto: 'https://rickandmortyapi.com/api/character/avatar/244.jpeg',
@@ -27,7 +27,7 @@ export class ListaEstudiantesComponent {
     {
       nombre: 'Shleemypants',
       grupo: 2,
-      curso: 'Node ',
+      curso: 'NODE ',
       calificacion: 7.7,
       aprobado: true,
       foto: 'https://rickandmortyapi.com/api/character/avatar/313.jpeg',
@@ -35,7 +35,7 @@ export class ListaEstudiantesComponent {
     {
       nombre: 'Secret Service Snake',
       grupo: 2.8,
-      curso: 'Angular',
+      curso: 'ANGULAR',
       calificacion: 8.4,
       aprobado: true,
       foto: 'https://rickandmortyapi.com/api/character/avatar/580.jpeg',
@@ -43,7 +43,7 @@ export class ListaEstudiantesComponent {
     {
       nombre: 'Michael Jackson',
       grupo: 4.7,
-      curso: 'Angular',
+      curso: 'NODE',
       calificacion: 4,
       aprobado: false,
       foto: 'https://rickandmortyapi.com/api/character/avatar/404.jpeg',
@@ -51,7 +51,7 @@ export class ListaEstudiantesComponent {
     {
       nombre: 'Armothy',
       grupo: 2,
-      curso: 'Angular',
+      curso: 'REACT',
       calificacion: 5.4,
       aprobado: false,
       foto: 'https://rickandmortyapi.com/api/character/avatar/25.jpeg',
