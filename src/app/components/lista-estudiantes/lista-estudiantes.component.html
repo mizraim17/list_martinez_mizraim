@@ -8,9 +8,11 @@
         <h5 class="card-title">{{estudiante.nombre}}</h5>
         <p class="card-text">
           {{estudiante.curso }}
+          <br>
+          {{estudiante.calificacion|number :'1.0-0' }}
         </p>
         <a href="#"
-          class="btn {{estudiante.aprobado?'btn-primary':'btn-danger'}}">{{estudiante.aprobado?'reincribir':'recursar'}}</a>
+          class="btn {{ estudiante.aprobado ?'btn-primary':'btn-danger'}}">{{estudiante.aprobado?'reincribir':'recursar'}}</a>
       </div>
     </div>
   </div>
